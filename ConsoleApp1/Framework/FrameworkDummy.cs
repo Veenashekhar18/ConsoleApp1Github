@@ -83,7 +83,7 @@ namespace ConsoleApp1.Framework
     }
     public class Sushma
     {
-        public static void Main()
+        public static void ain()
         {
            Tejas t=new Yusuf();
             t.kiran();
