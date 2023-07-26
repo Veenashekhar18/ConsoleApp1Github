@@ -1,9 +1,14 @@
-﻿using ConsoleApp1.Inheritence;
+﻿using ConsoleApp1.abstraction;
+using ConsoleApp1.constructor;
+using ConsoleApp1.encapsulation;
+using ConsoleApp1.Inheritence;
 using ConsoleApp1.polymorphism;
 using ConsoleApp1.Programs;
 using System;
 using System.Collections.Generic;
+using System.Globalization;
 using System.Linq;
+using System.Net.Mail;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -11,8 +16,8 @@ namespace ConsoleApp1
 {
     internal class FirstDemo
     {
-        public static void Main(String[] args)
-        {
+       // public static void Main(String[] args)
+       // {
             //Console.WriteLine("hello world");
             //Pattern.pattern();
             //Addition.Add();
@@ -28,22 +33,29 @@ namespace ConsoleApp1
             // Inter inter = new Inter();
             //inter.Demo1();
             //inter.Demo();
-            CountVowels.count();
-            Find1n2n3largest.Findlargest();
-            Merge2Arrays merge2Arrays = new Merge2Arrays();
-            merge2Arrays.Merge2();
-            RemoveduplicateinIntegerArray.Removeduplicate();
-            ReverseString.Reverse();
-            Instagram2 i=new Instagram2();
-            i.Methodoverride();
-            Compiletime c=new Compiletime();
-            c.main("hi");
-            c.main("hello", 13);
-            c.main(1.2f, 52);
+            // CountVowels.count();
+            //Find1n2n3largest.Findlargest();
+            //Merge2Arrays merge2Arrays = new Merge2Arrays();
+            //merge2Arrays.Merge2();
+            //RemoveduplicateinIntegerArray.Removeduplicate();
+            //ReverseString.Reverse();
+            //Instagram2 i=new Instagram2();
+            //i.Methodoverride();
+            //Compiletime c=new Compiletime();
+            //c.main("hi");
+            //c.main("hello", 13);
+            //c.main(1.2f, 52);
+            //Operators operators = new Operators();
+            //operators.ArthematicOperation();
+            // Method1 m1= new Method1();
+            //m1.getm();
+           // Abstract1.mainab();
+           //Implement i=new Implement();
+            
 
 
 
 
-        }
+        //}
     }
 }

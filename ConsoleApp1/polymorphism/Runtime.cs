@@ -9,7 +9,7 @@ namespace ConsoleApp1.polymorphism
     public class Instagram
 
     {
-            public void Methodoverride()
+            public virtual void Methodoverride()
             {
                 Console.WriteLine("implementation on chats,emojis, story");
             }
@@ -18,7 +18,7 @@ namespace ConsoleApp1.polymorphism
         public class Instagram2 : Instagram
         {
 
-            public void Methodoverride()
+            public override void Methodoverride()
             {
                 Console.WriteLine("implementation on chats,emojis,story and threads");
             }
